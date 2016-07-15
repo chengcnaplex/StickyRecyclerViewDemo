@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--android:foreground="?android:attr/selectableItemBackgroundBorderless"-->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--style="@style/NormalTextView"-->
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015-12-11 12:00"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="6dp"
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="      视线好转,0729出口开通,0621进口开通。视线好转,0729出口开通,0621进口开通。"/>
+
+        </RelativeLayout>
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--app:cardPreventCornerOverlap="true"-->
+            <!--app:cardUseCompatPadding="true"-->
+            <!--app:contentPadding="10dp">-->
+            <!--&lt;!&ndash;style="@style/SmallGreyTextView"&ndash;&gt;-->
+        <!--</android.support.v7.widget.CardView>-->
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.administrator.recyclerviewdemo.view.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#001F3F"
+    android:scrollbars="none"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:text="Button1"
+            android:layout_width="400dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:text="Button2"
+            android:layout_width="400dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:text="Button3"
+            android:layout_width="400dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:text="Button4"
+            android:layout_width="400dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:text="Button5"
+            android:layout_width="400dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:text="Button6"
+            android:layout_width="400dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+</com.example.administrator.recyclerviewdemo.view.ObservableScrollView>
