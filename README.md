@@ -1,6 +1,6 @@
-## RecyclerViewDemo ##
+## StickyRecyclerViewDemo ##
 
-**RecyclerViewDemo** 是在支付宝app商店看到的效果，这个效果是
+**StickyRecyclerViewDemo** 是在支付宝app商店看到的效果，这个效果是
 一个带有导航效果的粘性头。
 
 ###v1.0
@@ -13,4 +13,4 @@
 - 由于是第一个版本，未对其封装。如果想了使用这个功能希望您还是了解一下源码
 
 
-![](https://github.com/chengcnaplex/RecyclerViewDemo/blob/master/gif/StickySrcollView.gif)
+![](https://github.com/chengcnaplex/StickyRecyclerViewDemo/blob/master/gif/StickySrcollView.gif)
