@@ -13,4 +13,4 @@
 - 由于是第一个版本，未对其封装。如果想了使用这个功能希望您还是了解一下源码
 
 
-![]()
+![](https://github.com/chengcnaplex/RecyclerViewDemo/blob/master/gif/StickySrcollView.gif)
